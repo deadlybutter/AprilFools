@@ -36,7 +36,7 @@ public class AprilFools {
     
     
     public AprilFools(){
-        binary_char = new String[]{"0","1"};
+        binary_char = new String[]{"0","1"," "};
         random = new Random();
         beginOutput();
     }
@@ -71,9 +71,7 @@ public class AprilFools {
             printApril = !printApril;
             try {
                 Thread.sleep(1000);
-            } catch (InterruptedException ex) {
-                Logger.getLogger(AprilFools.class.getName()).log(Level.SEVERE, null, ex);
-            }
+            } catch (InterruptedException ex) {}
         }
     }
     
