@@ -1,7 +1,7 @@
 AprilFools
 ==========
 
-Quick April Fools joke I made. Just made a batch file that runs this, made a shortcut to that and changed icon.
+Quick April Fools joke I made. Just make a batch file that runs this, make a shortcut to that batch file & changed the shortcuts icon.
 
 * Create a batch file in your C drive and put this in it: java -jar "C:\AprilFools.jar
 * Build the project on your computer, and put the jar file in your C drive.
